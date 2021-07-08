@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +12,10 @@
 
 body {
   font-family: "Arimo", sans-serif;
+  background: #1b161c;
 }
+
+/***** Navigation *****/
 
 nav {
   background: #006a67;
@@ -104,4 +109,16 @@ a:hover {
   #check:checked ~ ul {
     left: 0;
   }
+}
+
+/***** Navigation *****/
+
+/***** Home *****/
+
+.homeh1 {
+  font-family: "Bona Nova", serif;
+  color: #f8ebc1;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 60px;
 }
