@@ -180,3 +180,26 @@ footer {
 }
 
 /***** Footer *****/
+
+/***** Trails *****/
+
+.imgtr {
+  align-items: center;
+  height: 400px;
+  padding-top: 120px;
+  padding-left: 190px;
+}
+
+.imgtl {
+  align-items: center;
+  height: 400px;
+  padding-top: 120px;
+  padding-left: 60px;
+}
+
+.card-title,
+.cardtiteltrails {
+  font-size: 28px;
+}
+
+/***** Trails *****/
