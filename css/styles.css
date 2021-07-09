@@ -203,3 +203,26 @@ footer {
 }
 
 /***** Trails *****/
+
+/***** Acordeon *****/
+.accordion,
+.accordion-flush {
+  margin-bottom: 200px;
+}
+
+audio {
+  margin-top: 20px;
+}
+
+.h3trinfo {
+  font-family: "Bona Nova", serif !important;
+  color: #f8ebc1 !important;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.carousel-inner {
+  border: red !important;
+}
+/***** Acordeon *****/
