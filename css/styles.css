@@ -180,6 +180,20 @@ footer {
   padding-left: 50px;
 }
 
+.footersr {
+  font-weight: 400;
+  color: white;
+  padding-left: 50px;
+}
+
+.linkaudio {
+  text-decoration: none;
+  color: white;
+}
+
+.linkaudio:hover {
+  background-color: #006a67;
+}
 /***** Footer *****/
 
 /***** Trails *****/
