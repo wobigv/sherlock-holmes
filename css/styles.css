@@ -30,6 +30,7 @@ label.logo {
   padding: 0 100px;
   font-weight: bold;
 }
+
 nav ul {
   float: right;
   margin-right: 20px;
@@ -227,3 +228,32 @@ audio {
 }
 
 /***** Acordeon *****/
+
+/***** About *****/
+
+#h4about {
+  font-family: "Bona Nova", serif;
+  color: #f8ebc1;
+  font-size: 70px;
+  padding-top: 100px;
+}
+
+.pabout {
+  color: white;
+  padding-right: 25px;
+  font-size: 25px;
+}
+
+.quote {
+  color: #f8ebc1;
+  font-size: 25px;
+  font-style: italic;
+  padding-bottom: 50px;
+}
+
+.imgabout {
+  height: 200px;
+  width: auto;
+}
+
+/***** About *****/
