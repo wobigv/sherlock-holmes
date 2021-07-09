@@ -227,6 +227,15 @@ audio {
   margin-bottom: 100px;
 }
 
+.carousel-item {
+  border: red;
+}
+
+.d-block,
+.border1 {
+  border-radius: 8px;
+}
+
 /***** Acordeon *****/
 
 /***** About *****/
