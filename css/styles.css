@@ -222,7 +222,8 @@ audio {
   margin-bottom: 20px;
 }
 
-.carousel-inner {
-  border: red !important;
+.imageslide {
+  margin-bottom: 100px;
 }
+
 /***** Acordeon *****/
