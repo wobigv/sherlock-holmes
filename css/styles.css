@@ -5,14 +5,14 @@
 * {
   padding: 0;
   margin: 0;
-  text-decoration: none;
-  list-style: none;
+  text-decoration: none !important;
+  list-style: none !important;
   box-sizing: border-box;
 }
 
 body {
   font-family: "Arimo", sans-serif;
-  background: #1b161c;
+  background: #1b161c !important;
 }
 
 /***** Navigation *****/
@@ -53,6 +53,7 @@ a.active,
 a:hover {
   background: #015552;
   transition: 0.5s;
+  color: white !important;
 }
 
 .checkbtn {
@@ -104,7 +105,7 @@ a:hover {
   a:hover,
   a.active {
     background: none;
-    color: #015552;
+    color: #015552 !important;
   }
   #check:checked ~ ul {
     left: 0;
@@ -119,6 +120,63 @@ a:hover {
   font-family: "Bona Nova", serif;
   color: #f8ebc1;
   text-align: center;
-  font-size: 60px;
-  padding-top: 60px;
+  font-size: 70px;
+  padding-top: 300px;
+  padding-bottom: 15px;
 }
+
+.homep {
+  font-family: "Arimo", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  margin-bottom: 270px;
+}
+
+.pyellow {
+  color: #f8ebc1;
+  font-family: "Arimo", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.card {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 150px;
+}
+
+.btn,
+.btn-primary,
+.btncard {
+  background-color: #006a67 !important;
+  border: none !important;
+}
+
+/***** Home *****/
+
+/***** Footer *****/
+
+footer {
+  background: #006a67;
+  padding-bottom: 10px;
+}
+
+.footerh4 {
+  color: white;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+.footerh6 {
+  font-weight: 400;
+  color: white;
+  padding-left: 50px;
+}
+
+/***** Footer *****/
