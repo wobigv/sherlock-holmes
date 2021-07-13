@@ -272,6 +272,9 @@ audio {
 }
 
 .quote {
+  font-family: courier-std, monospace;
+  font-weight: 400;
+  font-style: normal;
   color: #f8ebc1;
   font-size: 25px;
   font-style: italic;
