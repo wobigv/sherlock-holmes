@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap");
 
+@import url("https://use.typekit.net/tob5kvz.css");
+
 * {
   padding: 0;
   margin: 0;
@@ -118,7 +120,9 @@ a:hover {
 /***** Home *****/
 
 .homeh1 {
-  font-family: "Bona Nova", serif;
+  font-family: courier-std, monospace;
+  font-weight: 400;
+  font-style: normal;
   color: #f8ebc1;
   text-align: center;
   font-size: 70px;
@@ -241,8 +245,10 @@ audio {
   margin-bottom: 100px;
 }
 
-.d-block,
-.border1 {
+.carousel-inner {
+  border: 10px;
+  border-color: #006a67;
+  border-style: solid;
   border-radius: 8px;
 }
 
@@ -251,7 +257,9 @@ audio {
 /***** About *****/
 
 #h4about {
-  font-family: "Bona Nova", serif;
+  font-family: courier-std, monospace;
+  font-weight: 400;
+  font-style: normal;
   color: #f8ebc1;
   font-size: 70px;
   padding-top: 100px;
